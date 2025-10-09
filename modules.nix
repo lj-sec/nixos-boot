@@ -25,7 +25,7 @@ in
     default = 255;
   };
   options.nixos-boot.theme = lib.mkOption {
-    type = lib.types.enum [ "load_unload" "evil-nixos" ];
+    type = lib.types.enum [ "load_unload" "evil-nixos" "evil-nixos-centered" ];
     default = "load_unload";
   };
   options.nixos-boot.duration = lib.mkOption {

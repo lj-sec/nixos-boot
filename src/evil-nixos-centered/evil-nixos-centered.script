@@ -89,7 +89,7 @@ center_logo = fun() {
     y = (Window.GetHeight() - global.logo.h) / 2;
     global.logo.put(x, y);
 };
-center_logo()
+center_logo();
 
 logo.frame = 0;
 logo.update = fun () {
@@ -113,7 +113,7 @@ fun labeltext() {
 
 label = Object(whitetext(labeltext(), 20));
 label.below(logo);
-label.align_left(logo);
+label.put( (Window.GetWidth() - label.w) / 2, label.y );
 
 // ========== Question callback
 
@@ -155,8 +155,8 @@ fun password_callback(prompt, bullet_count) {
 
 
 # Set background color
-Window.SetBackgroundTopColor (1, 1, 1);
-Window.SetBackgroundBottomColor (1, 1, 1);
+Window.SetBackgroundTopColor (0, 0, 0);
+Window.SetBackgroundBottomColor (0, 0, 0);
 
 Plymouth.SetDisplayQuestionFunction(question_callback);
 Plymouth.SetDisplayPasswordFunction(password_callback);

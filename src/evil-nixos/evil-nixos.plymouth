@@ -1,8 +1,8 @@
 [Plymouth Theme]
 Name=evil-nixos
-Description=weird evil nixos theme
+Description=weird evil nixos theme, but centered
 ModuleName=script
 
 [script]
-ImageDir=/usr/share/plymouth/themes/evil-nixos
-ScriptFile=/usr/share/plymouth/themes/evil-nixos/evil-nixos.script
+ImageDir=/usr/share/plymouth/themes/evil-nixos-centered
+ScriptFile=/usr/share/plymouth/themes/evil-nixos/evil-nixos-centered.script

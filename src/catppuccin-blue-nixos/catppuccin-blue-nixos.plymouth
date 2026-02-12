@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=evil-nixos
+Description=weird evil nixos theme, but catppuccin blue
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/catppuccin-blue-nixos
+ScriptFile=/usr/share/plymouth/themes/catppuccin-blue-nixos/catppuccin-blue-nixos.script

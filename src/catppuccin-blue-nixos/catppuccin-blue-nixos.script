@@ -155,8 +155,8 @@ fun password_callback(prompt, bullet_count) {
 
 
 # Set background color
-Window.SetBackgroundTopColor (0, 0, 0);
-Window.SetBackgroundBottomColor (0, 0, 0);
+Window.SetBackgroundTopColor (30, 30, 46);
+Window.SetBackgroundBottomColor (17, 17, 27);
 
 Plymouth.SetDisplayQuestionFunction(question_callback);
 Plymouth.SetDisplayPasswordFunction(password_callback);
